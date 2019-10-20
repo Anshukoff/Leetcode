@@ -910,3 +910,8 @@ _deps
 *.exe
 *.out
 *.app
+
+#my additions
+*.vcxproj
+*.vcxproj.filters
+*..sln
