@@ -914,4 +914,4 @@ _deps
 #my additions
 *.vcxproj
 *.vcxproj.filters
-*..sln
+*.sln
