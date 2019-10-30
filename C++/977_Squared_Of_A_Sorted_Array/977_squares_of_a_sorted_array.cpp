@@ -7,6 +7,7 @@ public:
     std::vector<int> sortedSquares(std::vector<int>& A);
 };
 
+//O(nlog(n)) solution
 //std::vector<int>Solution::sortedSquares(std::vector<int>& A){
 //    std::vector<int> resultVec;
 //    for(auto a : A){
@@ -16,6 +17,7 @@ public:
 //    return resultVec;
 //}
 
+//O(n) solution
 std::vector<int>Solution::sortedSquares(std::vector<int>& A){
     std::vector<int> hash(10001,0);
     for(auto a : A){
