@@ -27,6 +27,7 @@ bool Solution::uniqueOccurrences(std::vector<int>& arr){
 int main(void){
     Solution solution;
     std::vector<int> vec = {1, 2, 2, 1, 1, 3};
+	//std::vector<int> vec = {1, 2, 2, 1, 1, 3, 4, 4, 7};
     std::cout << solution.uniqueOccurrences(vec) << std::endl;
     return 0;
 }
